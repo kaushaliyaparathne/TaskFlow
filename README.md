@@ -119,15 +119,15 @@ JWT_SECRET=your_jwt_secret
 
 ## 👤 User Interface
 
-### Login Page
+### Dashboard
 
 <img src="https://github.com/user-attachments/assets/737d4044-ba5c-4701-8ed5-6b9aca732078" width="1000">
 
-### Dashboard
+### MyTaska
 
 <img src="https://github.com/user-attachments/assets/fb37ac15-7a52-4812-b8dc-7ed7c662d9c0" width="1000">
 
-### Calendar
+### 
 
 <img src="https://github.com/user-attachments/assets/a5c7b356-7ede-4d8f-ab22-14c2fca6e77c" width="1000">
 
@@ -141,9 +141,14 @@ JWT_SECRET=your_jwt_secret
 
 ### User Management
 
-<img src="https://github.com/user-attachments/assets/1f340e56-c14d-4fef-8d99-4a0674ba84ce" width="1000">
+<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/3f7b04ce-6bf6-43fc-a4e6-ec38cb7f08f6" />
+
 
 ### Task Management
+
+<img src="https://github.com/user-attachments/assets/1f340e56-c14d-4fef-8d99-4a0674ba84ce" width="1000">
+
+### Reports
 
 <img src="https://github.com/user-attachments/assets/e10dc70e-d1a5-40af-90f4-2a9977ddcb65" width="1000">
 
