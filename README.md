@@ -1,19 +1,26 @@
 # 📋 TaskFlow – Task Management System
 
-TaskFlow is a full-stack task management web application that enables users to create, organize, update, and manage tasks efficiently. The application features secure user authentication, task status management, dashboards, and a responsive user interface.
+TaskFlow is a full-stack task management web application developed using the MERN stack. The application enables users to securely manage their daily tasks with features such as authentication, task creation, task status tracking, dashboards, and calendar-based scheduling. It provides an intuitive and responsive user interface for both users and administrators.
 
 ---
 
 ## 🚀 Features
 
+### User Features
 - User Registration & Login
-- Secure Authentication with JWT
-- Create, Update, Delete, and Manage Tasks
+- Secure JWT Authentication
+- Create, Update, Delete Tasks
 - Task Status Management
+- Calendar-based Task Scheduling
 - Dashboard with Task Statistics
-- Calendar-based Task Tracking
 - Responsive User Interface
-- RESTful API Integration
+
+### Admin Features
+- Admin Login
+- Dashboard Overview
+- User Management
+- Task Monitoring
+- System Statistics
 
 ---
 
@@ -33,7 +40,7 @@ TaskFlow is a full-stack task management web application that enables users to c
 - JWT Authentication
 - bcrypt.js
 
-### Tools
+### Development Tools
 - Git
 - GitHub
 - Postman
@@ -41,24 +48,26 @@ TaskFlow is a full-stack task management web application that enables users to c
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
+```text
 TaskFlow/
 │
 ├── frontend/
-│   ├── src/
 │   ├── public/
+│   ├── src/
 │   ├── package.json
 │   └── ...
 │
 ├── backend/
 │   ├── controllers/
+│   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
+│   ├── config/
 │   ├── package.json
-│   └── server.js
+│   ├── server.js
+│   └── ...
 │
 └── README.md
 ```
@@ -67,14 +76,14 @@ TaskFlow/
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/kaushaliyaparathne/TaskFlow.git
 cd TaskFlow
 ```
 
-### 2. Install Frontend Dependencies
+### Install Frontend
 
 ```bash
 cd frontend
@@ -82,7 +91,7 @@ npm install
 npm run dev
 ```
 
-### 3. Install Backend Dependencies
+### Install Backend
 
 Open a new terminal.
 
@@ -96,7 +105,7 @@ npm run dev
 
 ## 🔐 Environment Variables
 
-Create a `.env` file inside the `backend` folder.
+Create a `.env` file inside the **backend** folder.
 
 ```env
 PORT=5000
@@ -108,29 +117,46 @@ JWT_SECRET=your_jwt_secret
 
 ## 📸 Screenshots
 
-### 👤 User Interface
+## 👤 User Interface
 
-#### Login Page
-<img width="1897" height="863" alt="Login" src="https://github.com/user-attachments/assets/737d4044-ba5c-4701-8ed5-6b9aca732078" />
+### Login Page
 
-#### Dashboard
-<img width="1900" height="865" alt="Dashboard" src="https://github.com/user-attachments/assets/fb37ac15-7a52-4812-b8dc-7ed7c662d9c0" />
+<img src="https://github.com/user-attachments/assets/737d4044-ba5c-4701-8ed5-6b9aca732078" width="1000">
 
-#### Calendar
-<img width="1919" height="866" alt="Calendar" src="https://github.com/user-attachments/assets/a5c7b356-7ede-4d8f-ab22-14c2fca6e77c" />
+### Dashboard
+
+<img src="https://github.com/user-attachments/assets/fb37ac15-7a52-4812-b8dc-7ed7c662d9c0" width="1000">
+
+### Calendar
+
+<img src="https://github.com/user-attachments/assets/a5c7b356-7ede-4d8f-ab22-14c2fca6e77c" width="1000">
 
 ---
 
-### 👨‍💼 Admin Interface
+## 👨‍💼 Admin Interface
 
-#### Dashboard
-<img width="1900" height="864" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/cc8bc344-9b35-4669-bcb1-a04db6b2f034" />
+### Admin Dashboard
 
-#### User Management
-<img width="1919" height="865" alt="User Management" src="https://github.com/user-attachments/assets/1f340e56-c14d-4fef-8d99-4a0674ba84ce" />
+<img src="https://github.com/user-attachments/assets/cc8bc344-9b35-4669-bcb1-a04db6b2f034" width="1000">
 
-#### Task Management
-<img width="1898" height="867" alt="Task Management" src="https://github.com/user-attachments/assets/e10dc70e-d1a5-40af-90f4-2a9977ddcb65" />
+### User Management
+
+<img src="https://github.com/user-attachments/assets/1f340e56-c14d-4fef-8d99-4a0674ba84ce" width="1000">
+
+### Task Management
+
+<img src="https://github.com/user-attachments/assets/e10dc70e-d1a5-40af-90f4-2a9977ddcb65" width="1000">
+
+---
+
+## 📈 Future Improvements
+
+- Email Notifications
+- Task Priority Levels
+- File Attachments
+- Dark Mode
+- Team Collaboration
+- Real-time Notifications
 
 ---
 
@@ -138,5 +164,12 @@ JWT_SECRET=your_jwt_secret
 
 **Kaushali Yaparathne**
 
-- **GitHub:** https://github.com/kaushaliyaparathne
-- **LinkedIn:** https://linkedin.com/in/kaushali-yaparathne-650674325
+📧 Email: kaushaliyaparathne@gmail.com
+
+🔗 LinkedIn: https://linkedin.com/in/kaushali-yaparathne-650674325
+
+💻 GitHub: https://github.com/kaushaliyaparathne
+
+---
+
+⭐ If you found this project helpful, consider giving it a **star** on GitHub.
