@@ -123,11 +123,11 @@ JWT_SECRET=your_jwt_secret
 
 <img src="https://github.com/user-attachments/assets/737d4044-ba5c-4701-8ed5-6b9aca732078" width="1000">
 
-### MyTaska
+### Add Tasks
 
 <img src="https://github.com/user-attachments/assets/fb37ac15-7a52-4812-b8dc-7ed7c662d9c0" width="1000">
 
-### 
+### MyTasks
 
 <img src="https://github.com/user-attachments/assets/a5c7b356-7ede-4d8f-ab22-14c2fca6e77c" width="1000">
 
